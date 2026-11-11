@@ -1,6 +1,132 @@
 START_HP 10
-SCENE Replace this file with your own story.
+SCENE You decide to start a band with some friends from college, but it needs a sound. What will it be?
 HP 0
 LOOT 0
 ITEM none
-CHOICES 0
+CHOICES 3
+LABEL Play loud punk.
+  SCENE It's time for the band to play its first gig. Your drummer suggests doing something reckless. Where are you headed?
+  HP 0
+  LOOT 3
+  ITEM Distortion Pedal
+  CHOICES 2
+  LABEL Play a house show.
+    SCENE You play a crowded house show. Someone accidentally punches you in the face during a mosh pit, but the crowd loves you.
+    HP -1
+    LOOT 2
+    ITEM Setlist
+    CHOICES 0
+  LABEL Crash a bigger band's gig.
+    SCENE You sneak onto a bigger band's stage and start playing. Security notices you immediately. What do you do?
+    HP -6
+    LOOT 7
+    ITEM Backstage Pass
+    CHOICES 2
+    LABEL Keep playing through security.
+      SCENE You refuse to stop playing. Security tackles you offstage, and your band decides you are officially a liability.
+      HP -6
+      LOOT 3
+      ITEM Broken Guitar String
+      CHOICES 0
+    LABEL Bail out the back door.
+      SCENE You escape through the back door, accidentally stealing a security guard's jacket along the way.
+      HP 0
+      LOOT 1
+      ITEM Security Jacket
+      CHOICES 0
+LABEL Play polished pop-rock.
+  SCENE It's time for the band to play its first gig. You want to impress people and maybe get discovered. Where are you headed?
+  HP 0
+  LOOT 2
+  ITEM Songbook
+  CHOICES 2
+  LABEL Compete in the local battle of the bands.
+    SCENE You compete in the battle of the bands and deliver an incredible performance. You win second place and a suspiciously small trophy.
+    HP -3
+    LOOT 4
+    ITEM Silver Trophy
+    CHOICES 0
+  LABEL Perform in the local talent show.
+    SCENE You perform at a local talent show. A mysterious man in sunglasses approaches you afterward and claims he can make you famous.
+    HP 0
+    LOOT 2
+    ITEM Cheap Microphone
+    CHOICES 2
+    LABEL Accept his record deal.
+      SCENE You sign a contract without reading it. The mysterious man owns your band's name, music, and possibly your souls.
+      HP -4
+      LOOT 6
+      ITEM Shady Record Contract
+      CHOICES 0
+    LABEL Reject the deal and stay independent.
+      SCENE You turn down the offer. The man disappears into a cloud of smoke, leaving behind a business card that smells like eggs.
+      HP 1
+      LOOT 3
+      ITEM Strange Business Card
+      CHOICES 0
+LABEL Play moody indie.
+  SCENE It's time for the band to play its first gig. You want to build a loyal following rather than become famous overnight. Where are you headed?
+  HP 1
+  LOOT 1
+  ITEM Vintage Vinyl
+  CHOICES 2
+  LABEL Play at the local dive bar.
+    SCENE You play a dive bar and attract a few fans. One fan claims your music cured his depression. What do you do next?
+    HP 1
+    LOOT 2
+    ITEM Tip Jar
+    CHOICES 1
+    LABEL Talk to the few fans.
+      SCENE You spend time talking to your fans. One of them gives you a mysterious envelope and tells you that your music is destined for greatness. Do you accept it?
+      HP 1
+      LOOT 2
+      ITEM Fan Letter
+      CHOICES 2
+      LABEL Open the envelope.
+        SCENE Inside is a handwritten invitation to perform a session on college radio. Your band's big break might finally be here.
+        HP 1
+        LOOT 3
+        ITEM Radio Station Sticker
+        CHOICES 2
+        LABEL Coffee with the booker.
+          SCENE You meet a festival booker over coffee. He offers you a chance to perform at a major local festival, but you have to decide what matters most to your band.
+          HP 0
+          LOOT 4
+          ITEM Business Card
+          CHOICES 3
+          LABEL Accept the festival slot.
+            SCENE You accept the festival slot and perform in front of hundreds of people. Your band finally gets the recognition it deserves.
+            HP 2
+            LOOT 8
+            ITEM Festival Wristband
+            CHOICES 0
+          LABEL Ask for a bigger slot.
+            SCENE You demand a better time slot and more money. The booker laughs, withdraws the offer, and tells every other venue that your band is impossible to work with.
+            HP -3
+            LOOT 0
+            ITEM Rejected Contract
+            CHOICES 0
+          LABEL Split the opportunity with another local band.
+            SCENE You offer to share the festival opportunity with a struggling local band. The booker is impressed by your generosity and gives both bands a spot.
+            HP 2
+            LOOT 6
+            ITEM Festival Pass
+            CHOICES 0
+        LABEL Play it cool and wait.
+          SCENE You decide not to rush into anything. Months later, your music slowly builds a loyal following, and a small record label reaches out.
+          HP 1
+          LOOT 4
+          ITEM Demo Tape
+          CHOICES 0
+      LABEL Refuse the envelope.
+        SCENE Something about the fan seems suspicious. You refuse the envelope, and he disappears into the crowd without saying another word.
+        HP 1
+        LOOT 1
+        ITEM none
+        CHOICES 0
+    LABEL Play a record store set.
+      SCENE You perform a set at a local record store. The owner loves your music and offers to sell your band's merchandise.
+      HP 1
+      LOOT 3
+      ITEM Signed Vinyl
+      CHOICES 0
