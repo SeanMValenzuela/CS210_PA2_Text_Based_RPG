@@ -21,7 +21,7 @@ at a given index does not exist (nullptr), nullptr is returned. getChoice runs i
 runs in constant time.
 #### TODO 5 (setChoice):
 setChoice is simply the setter complement to the getter in getChoice, and is responsible for assigning a child scene at a given index.
-Similar to how getChoice operates, if the given index is invalid, which is if it less than zero ot greater than or equal to numChoices, 
+Similar to how getChoice operates, if the given index is invalid, which is if it less than zero or greater than or equal to numChoices, 
 the function returns early without modifying the array. setChoice runs in O(1) time, as assigning a value at a given index in an array 
 runs in constant time.
 #### TODO 6 (countScenes):
