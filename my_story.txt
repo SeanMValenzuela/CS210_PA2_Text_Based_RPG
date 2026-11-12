@@ -83,13 +83,13 @@ LABEL Play moody indie.
       ITEM Fan Letter
       CHOICES 2
       LABEL Open the envelope.
-        SCENE Inside is a handwritten invitation to perform a session on college radio. Your band's big break might finally be here.
+        SCENE Inside is a handwritten invitation to perform a session on college radio, which goes well and catches the attention of a local booker. Your band's big break might finally be here.
         HP 1
         LOOT 3
         ITEM Radio Station Sticker
         CHOICES 2
         LABEL Coffee with the booker.
-          SCENE You meet a festival booker over coffee. He offers you a chance to perform at a major local festival, but you have to decide what matters most to your band.
+          SCENE You meet the festival booker over coffee. He offers you a chance to perform at a major local festival, but you have to decide what matters most to your band.
           HP 0
           LOOT 4
           ITEM Business Card
@@ -124,9 +124,9 @@ LABEL Play moody indie.
         LOOT 1
         ITEM none
         CHOICES 0
-    LABEL Play a record store set.
-      SCENE You perform a set at a local record store. The owner loves your music and offers to sell your band's merchandise.
-      HP 1
-      LOOT 3
-      ITEM Signed Vinyl
-      CHOICES 0
+  LABEL Play a record store set.
+    SCENE You perform a set at a local record store. The owner loves your music and offers to sell your band's merchandise.
+    HP 1
+    LOOT 3
+    ITEM Signed Vinyl
+    CHOICES 0
